@@ -1,0 +1,12 @@
+com\engineer\security\UserDetailsServiceImpl.class
+com\engineer\config\AppConfig.class
+com\engineer\security\WebSecurity.class
+com\engineer\EngineerServerApp.class
+com\engineer\security\SecurityConstants.class
+com\engineer\entity\UserRole.class
+com\engineer\security\JWTAuthorizationFilter.class
+com\engineer\repository\LoggedUserRepository.class
+com\engineer\repository\UserRoleRepository.class
+com\engineer\controller\TestController.class
+com\engineer\security\JWTAuthenticationFilter.class
+com\engineer\entity\LoggedUser.class

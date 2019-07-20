@@ -1,7 +1,7 @@
 package com.engineer.controller;
 
 import com.engineer.entity.News;
-import com.engineer.repository.NewsRepository;
+import com.engineer.repositories.NewsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

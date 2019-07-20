@@ -1,7 +1,7 @@
 package com.engineer.security;
 
 import com.engineer.entity.LoggedUser;
-import com.engineer.repository.LoggedUserRepository;
+import com.engineer.repositories.LoggedUserRepository;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

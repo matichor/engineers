@@ -1,7 +1,7 @@
 package com.engineer.controller;
 
 import com.engineer.entity.CalendarEvent;
-import com.engineer.repository.CalendarEventRepository;
+import com.engineer.repositories.CalendarEventRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

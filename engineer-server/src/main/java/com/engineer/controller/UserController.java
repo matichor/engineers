@@ -1,13 +1,9 @@
 package com.engineer.controller;
 
-import com.engineer.entity.CalendarEvent;
 import com.engineer.entity.LoggedUser;
-import com.engineer.entity.News;
 import com.engineer.entity.UserRole;
-import com.engineer.repository.CalendarEventRepository;
-import com.engineer.repository.LoggedUserRepository;
-import com.engineer.repository.NewsRepository;
-import com.engineer.repository.UserRoleRepository;
+import com.engineer.repositories.LoggedUserRepository;
+import com.engineer.repositories.UserRoleRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.MediaType;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;

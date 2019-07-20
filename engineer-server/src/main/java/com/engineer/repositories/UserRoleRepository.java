@@ -1,4 +1,4 @@
-package com.engineer.repository;
+package com.engineer.repositories;
 
 
 import com.engineer.entity.UserRole;

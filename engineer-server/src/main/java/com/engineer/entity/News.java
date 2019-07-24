@@ -5,6 +5,9 @@ import lombok.Setter;
 import org.hibernate.annotations.Type;
 
 import javax.persistence.*;
+import java.sql.Date;
+import java.time.LocalDateTime;
+import java.time.ZoneId;
 
 @Entity
 @Table(name = "news")
@@ -28,4 +31,14 @@ public class News {
     @Type(type="org.hibernate.type.BinaryType")
     @Column(name = "teammate")
     private byte[] teammatePicture;
+
+    @Column(name = "created_at")
+    Date created;
+
+    @PrePersist
+    public void onCreate() {
+    created = new java.sql.Date(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant()
+                .toEpochMilli());
+    }
+
 }

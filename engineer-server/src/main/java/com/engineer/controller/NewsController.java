@@ -2,35 +2,45 @@ package com.engineer.controller;
 
 import com.engineer.entity.News;
 import com.engineer.repositories.NewsRepository;
+import com.engineer.services.NewsService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")
 @RequiredArgsConstructor
 public class NewsController {
 
-        private final NewsRepository newsRepository;
 
-        @GetMapping("/news")
-        public News getNews() {
-            News news = newsRepository.findOne(2L);
-            return news;
-        }
+    private final NewsRepository newsRepository;
+    private final NewsService newsService;
 
-        @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE, path = "/file")
-        @ResponseStatus(HttpStatus.CREATED)
-        void uploadStatementFile(@RequestParam("file") MultipartFile file) throws IOException {
-            System.out.print(file);
-            News news = new News();
-            news.setSubject("Bieg na grochowsk");
-            news.setContents("Chłopaki pobiegali");
-            news.setTeammatePicture(file.getBytes());
-            newsRepository.save(news);
+
+    @DeleteMapping("/deletenews")
+    void removeNews(@RequestParam Long id) {
+        this.newsRepository.delete(id);
+    }
+
+    @GetMapping("/news")
+    public List<News> getNews() {
+        return newsRepository.findByOrderByIdDesc();
+    }
+
+    @PostMapping(consumes = MediaType.MULTIPART_FORM_DATA_VALUE, path = "/addnews")
+    @ResponseStatus(HttpStatus.CREATED)
+    public void addNews(@RequestPart("file") MultipartFile file, @RequestPart("news") News news) throws IOException {
+        String contentType = file.getContentType();
+        if(contentType.equals("text/xml")) {
+            newsService.persistNews(news);
+            return;
         }
+        newsService.persistNews(file.getBytes(), news);
+    }
 }

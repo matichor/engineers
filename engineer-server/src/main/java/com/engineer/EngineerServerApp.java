@@ -14,7 +14,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 //@EnableJpaRepositories
 //@EntityScan("com.engineer")
 
-public class EngineerServerApp  {
+public class EngineerServerApp {
         public static void main(String[] args) {
             SpringApplication.run(EngineerServerApp.class, args);
         }

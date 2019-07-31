@@ -2,16 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44080aa6-c47c-4bb7-af9f-83eb3e854a61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/services/NewsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/News.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/NewsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/controller/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/controller/NewsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/entity/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/entity/News.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/repositories/NewsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/repositories/NewsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/assets/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/styles.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/styles.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/src/main/resources/static/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/src/main/resources/static/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/META-INF/engineerserver.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/security/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/security/SecurityConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/security/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/com/engineer/security/WebSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/assets/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/styles.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/styles.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/classes/static/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/classes/static/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/EngineerServerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/EngineerServerApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/config/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/config/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/repository/LoggedUserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/repository/UserRoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/JWTAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/JWTAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/SecurityConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/com/engineer/security/WebSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/_normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/assets/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/styles.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/styles.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/classes/static/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/lib/spring-boot-starter-tomcat-1.5.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/lib/tomcat-embed-core-8.5.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/lib/tomcat-embed-el-8.5.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineer-server-1.5.9.RELEASE/WEB-INF/lib/tomcat-embed-websocket-8.5.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/engineers.war" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/engineers.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-ui/target/engineer-ui-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-ui/target/engineer-ui-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engineer-ui/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-ui/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineer-ui/web" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-ui/web" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineer-ui/web/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-ui/web/angular.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/engineer-ui/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/engineer-ui/web/package.json" afterDir="false" />
@@ -35,47 +80,48 @@
     <session id="775022750">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="5" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="4" />
+          <entry key="class" value="5" />
           <entry key="html" value="6" />
-          <entry key="java" value="51" />
+          <entry key="java" value="57" />
           <entry key="js" value="2" />
           <entry key="json" value="2" />
           <entry key="properties" value="2" />
           <entry key="ts" value="5" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="HTML" value="6" />
-          <entry key="JAVA" value="51" />
+          <entry key="JAVA" value="57" />
           <entry key="JSON" value="2" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="2" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="4" />
           <entry key="html" value="3" />
-          <entry key="java" value="3031" />
+          <entry key="java" value="3228" />
           <entry key="json" value="109" />
           <entry key="properties" value="5" />
           <entry key="xml" value="72" />
@@ -84,7 +130,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="3031" />
+          <entry key="JAVA" value="3228" />
           <entry key="JSON" value="109" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Properties" value="5" />
@@ -96,37 +142,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/JWTAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/RunnerRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -134,10 +153,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/RunnerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="510">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1224#1225#0" expanded="true" />
                 <element signature="e#1278#1279#0" expanded="true" />
                 <element signature="e#1369#1370#0" expanded="true" />
                 <element signature="e#1417#1418#0" expanded="true" />
@@ -147,34 +167,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/services/RunnerService.java">
+        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/config/AppConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="425">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java">
+        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="21" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/engineer-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/NewsRepository.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            <state relative-caret-position="272">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -203,7 +235,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/News.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="544">
               <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -253,18 +285,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/engineer-ui/pom.xml" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/UserRole.java" />
-        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/JWTAuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repository/LoggedUserRepository.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/LoggedUser.java" />
-        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/JWTAuthenticationFilter.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repository/NewsRepository.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repository/CalendarEventRepository.java" />
-        <option value="$PROJECT_DIR$/engineer-server/pom.xml" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/common/LocalDateAttributeConverter.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/CalendarEvent.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/TestController.java" />
@@ -282,6 +310,10 @@
         <option value="$PROJECT_DIR$/engineer-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/services/NewsService.java" />
         <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java" />
+        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java" />
+        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java" />
+        <option value="$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java" />
+        <option value="$PROJECT_DIR$/engineer-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -302,10 +334,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -313,6 +345,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,36 +395,13 @@
               <item name="engineer-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engineer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineerfellas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engineerfellas" type="462c0819:PsiDirectoryNode" />
-              <item name="engineer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="engineer" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="engineerfellas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="engineerfellas" type="462c0819:PsiDirectoryNode" />
-              <item name="engineer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engineerfellas" type="b2602c69:ProjectViewProjectNode" />
               <item name="engineerfellas" type="462c0819:PsiDirectoryNode" />
               <item name="engineer-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="engineerfellas" type="b2602c69:ProjectViewProjectNode" />
@@ -401,12 +412,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563905997888" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564236432543" />
     <property name="last_opened_file_path" value="C:/copyrights-generator" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -468,15 +477,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.29731545" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.23557048" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3796576" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3787234" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="5" weight="0.35951662" />
-      <window_info anchor="bottom" id="Debug" order="6" visible="true" weight="0.20425531" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.35886526" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -484,7 +493,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09261745" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.09194631" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.22684564" />
@@ -655,13 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineer-ui/web/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -685,13 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -730,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/UserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -765,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="46" column="55" lean-forward="true" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/CalendarEventRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -793,24 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/bind/annotation/DeleteMapping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-430">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/config/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -828,16 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/CalendarEventController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/CalendarEvent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -845,13 +802,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/RunnerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,20 +829,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java">
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/NewsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="102">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/JWTAuthenticationFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="9" selection-start-line="85" selection-start-column="9" selection-end-line="85" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/repositories/NewsRepository.java">
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/NewsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/SecurityConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/CalendarEventController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/WebSecurity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="66" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/RunnerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/config/AppConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/EngineerServerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="21" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.2.3.RELEASE/spring-security-config-4.2.3.RELEASE.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -901,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/entity/News.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="544">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -909,36 +948,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/RunnerController.java">
+    <entry file="file://$PROJECT_DIR$/engineer-server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1278#1279#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/engineer-server/src/main/java/com/engineer/security/JWTAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="277">
+          <caret line="45" column="20" lean-forward="true" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>

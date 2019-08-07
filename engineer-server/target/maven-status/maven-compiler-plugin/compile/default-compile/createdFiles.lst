@@ -11,7 +11,9 @@ com\engineer\security\SecurityConstants.class
 com\engineer\controller\CalendarEventController.class
 com\engineer\entity\UserRole.class
 com\engineer\controller\UserController.class
+com\engineer\controller\GalleryController.class
 com\engineer\security\JWTAuthenticationFilter.class
+com\engineer\services\GalleryService.class
 com\engineer\security\UserDetailsServiceImpl.class
 com\engineer\repositories\NewsRepository.class
 com\engineer\repositories\UserRoleRepository.class
@@ -21,4 +23,6 @@ com\engineer\entity\News.class
 com\engineer\repositories\RunnerRepository.class
 com\engineer\services\NewsService.class
 com\engineer\security\JWTAuthorizationFilter.class
+com\engineer\entity\Gallery.class
 com\engineer\entity\LoggedUser.class
+com\engineer\repositories\GalleryRepository.class
